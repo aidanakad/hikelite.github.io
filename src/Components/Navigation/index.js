@@ -4,18 +4,18 @@ import {Navbar, Nav, Container} from 'react-bootstrap'
 import style from './nav.module.css'
 
 const navItems = [
-    {id:1, link: '/', text: 'Home'}
-    {id:4, link: '/for-tourist', text: 'For Tourist'}
-    {id:5, link: '/for-guide', tetx: 'For Guide'}
+    {id:1, link: '/', text: 'Home'},
+    {id:2, link: '/for-tourist', text: 'For Tourist'},
+    {id:3, link: '/for-guide', text: 'For Guide'},
+    {id:4, link: '/login', text: 'Login'},
+    {id:5, link: '/signin', text: 'Signin'},
+    {id:6, link: '/about-us', text: 'About Us'}
 ]
 
 export default function Navigation(){
     return(
         <Navbar collapseOnSelect expand= 'lg' variante="dark"  mr='auto'>
         <Container fluid="md">
-                <Navbar.Brand href="/">
-            some logo
-              </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav> 
@@ -33,8 +33,6 @@ export default function Navigation(){
                       </NavLink>
                     ))
                   }
-                
-                  
                 </Nav>
               </Navbar.Collapse>
         </Container>

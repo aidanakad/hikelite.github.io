@@ -1,10 +1,11 @@
 import React from 'react';
 import style from './tourist.module.css'
+import PageWrapper from '../PageWrapper'
 
 export default function ForTourist (){
     return (
-        <div>
+        <PageWrapper>
             info for tourist 
-        </div>
+        </PageWrapper>
     )
 }

@@ -1,12 +1,12 @@
 import React from 'react';
-import style from './auth.module.css'
+import style from './about.module.css'
 import PageWrapper from '../PageWrapper'
 
-export default function Login (){
+export default function AboutUs (){
     return (
         <div>
             <PageWrapper>
-                
+                about us
             </PageWrapper>
         </div>
     )
