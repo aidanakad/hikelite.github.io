@@ -21,7 +21,6 @@ export default function Login (){
                         </Form>
                     </Col>
                 </Row>
-               
             </Container>
             </PageWrapper>
         </div>
