@@ -14,7 +14,7 @@ const navItems = [
 
 export default function Navigation(){
     return(
-        <Navbar collapseOnSelect expand= 'lg' variante="dark"  mr='auto'>
+        <Navbar collapseOnSelect expand= 'lg' variante="dark"  mr='auto' className={style.nav}>
         <Container fluid="md">
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
