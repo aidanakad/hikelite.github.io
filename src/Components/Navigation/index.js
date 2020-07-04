@@ -18,7 +18,7 @@ export default function Navigation(){
         <Container fluid="md">
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
-                <Nav> 
+                <Nav className={style.navItems}> 
                 
                   {
                     navItems.map((item) => (
@@ -26,7 +26,7 @@ export default function Navigation(){
                         key={item.id}
                         exact
                         to={item.link}
-                        className={style.navlink}
+                        className={style.navLink}
                         activeClassName={style.activeLink}
                       >
                         {item.text}
