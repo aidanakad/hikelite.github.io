@@ -15,6 +15,7 @@
     width: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .navLink{
@@ -30,4 +31,8 @@
 .activeLink {
     color: var(--hover-color)!important;
     font-size: 21px;
+}
+
+.btn{
+    font-size: 19px;
 }
