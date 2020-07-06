@@ -1,0 +1,38 @@
+@import '../../vars.css';
+
+.nav{
+    min-height: 90px;
+    font-size: 19px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: inherit;
+    color: var(--basic-color);
+}
+
+.navItems{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navLink{
+    padding: 0 25px 0 25px;  
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.navLink:hover{
+    color: var(--hover-color);
+    transform: scale(1.1);
+}
+
+.activeLink {
+    color: var(--hover-color)!important;
+    font-size: 21px;
+}
+
+.btn{
+    font-size: 19px;
+}
