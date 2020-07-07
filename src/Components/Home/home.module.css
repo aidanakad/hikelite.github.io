@@ -1,0 +1,62 @@
+
+.bg{
+    width: 100%;
+    height: 100vh;
+    /* margin-top: 30px; */
+    background: center no-repeat;
+    background-size: cover;
+    backface-visibility: hidden;
+    animation: slideBg 8s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    animation-duration: 20s;
+    background-image: url('../../img/yurt.png');
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+  }
+  
+  @keyframes slideBg {
+    0%{
+        background-image: url('../../img/yurt.png');
+        
+    }
+    50%{
+        background-image: url('../../img/grass.png');
+        
+    }
+    100%{
+        background-image: url('../../img/yurt.png');
+        
+    }
+  }
+
+  .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .main h1{
+      margin-bottom: 20px;
+  }
+
+  .main h4{
+    margin-bottom: 20px;
+  }
+
+  .main h3{
+    margin-bottom: 20px;
+}
+  
+@media screen and (max-width: 992px) {
+    .bg {
+      align-items: flex-start;
+      color: #221f1f;
+    }
+    .main{
+        margin-top: 37px;
+
+    }
+  }
