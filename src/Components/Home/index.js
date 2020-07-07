@@ -14,7 +14,7 @@ export default function Home (){
                         about 2000 lakes.</h4>
                     <h3>Start to explore, choose a guide and pack your bag.</h3>
                     <NavLink to ="/guides">
-                        <Button variant="outline-success">Find a guid</Button>
+                        <Button variant="success">Find a guid</Button>
                     </NavLink>
                 </Container>
             </div>
