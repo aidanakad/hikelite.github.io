@@ -4,10 +4,12 @@ import PageWrapper from '../PageWrapper'
 import {Container} from 'react-bootstrap'
 
 export default function ForTourist ({match:{params: {id}}}){
+    
+
     // const id = parseInt(id)
     const [list, setList] = useState([])
     useEffect(()=>{
-        fetch(`http://localhost:1717/guides/${id}`)
+        fetch(`http://localhost:1717/${id}`)
         .then(response=>{
             if(!response.ok) throw new Error('guide not found')
             return response.json()
@@ -19,7 +21,7 @@ export default function ForTourist ({match:{params: {id}}}){
     return (
         <PageWrapper>
             <Container>
-                {list.map(g=>(
+                {list.guide.map(g=>(
                     <div>
                         <span>{g.name}</span>
                         <span>{g.age}</span>
