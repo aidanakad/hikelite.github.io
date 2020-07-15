@@ -3,9 +3,10 @@ import style from './guide.module.css'
 import PageWrapper from '../PageWrapper'
 
 export default function ForGuide (){
+    
     return (
         <PageWrapper>
-            info for guide
+            info
         </PageWrapper>
     )
 }
