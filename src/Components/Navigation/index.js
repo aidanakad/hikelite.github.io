@@ -5,8 +5,7 @@ import style from './nav.module.css'
 
 const navItems = [
     {id:1, link: '/', text: 'Home'},
-    {id:4, link: '/login', text: 'Login'},
-    {id:5, link: '/signin', text: 'Signin'},
+    {id:4, link: '/guides', text: 'Guides'},
     {id:6, link: '/about-us', text: 'About Us'}
 ]
 
@@ -32,9 +31,6 @@ export default function Navigation(){
                       
                     ))
                   }
-                  <NavLink to="/for-guide">
-                        <Button variant="outline-success" className={style.btn}>Become a guide</Button>
-                  </NavLink>
                 </Nav>
               </Navbar.Collapse>
         </Container>
