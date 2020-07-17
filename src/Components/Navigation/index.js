@@ -1,6 +1,6 @@
 import React from 'react';
 import {NavLink} from 'react-router-dom'  
-import {Navbar, Nav, Container, Button} from 'react-bootstrap'
+import {Navbar, Nav, Container} from 'react-bootstrap'
 import style from './nav.module.css'
 
 const navItems = [
