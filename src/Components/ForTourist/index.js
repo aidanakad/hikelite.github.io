@@ -4,13 +4,13 @@ import PageWrapper from '../PageWrapper'
 import { useEffect, useState } from 'react';
 import { Container } from 'react-bootstrap';
 import {NavLink} from 'react-router-dom'
-import placeholder from '../../img/grass.jpg'
+import placeholder from '../../img/placeholder.jpg'
 
 export default function Guides (){
     const endpoint = 'http://localhost:1717'
     const [list, setList]= useState([])
 
-    useEffect(()=>(
+    useEffect(()=>{
         fetch(`${endpoint}/guides`)
         .then(response=>{
             if(!response.ok) throw new Error ('error receiving data')
@@ -19,7 +19,7 @@ export default function Guides (){
         .then((data)=>{
             setList(data)
         })
-    ),[])
+    },[])
 
     return (
         <div>
@@ -30,7 +30,7 @@ export default function Guides (){
                         <div key={guide.id} className={style.guides}>
                             <NavLink to={`/guides/${guide.id}`}>
                                 <button>
-                                    <img src={placeholder} alt="avatar" className={style.avatar}/>
+                                    <img src={guide.img || placeholder}  alt="avatar" className={style.avatar}/>
                                 </button>
                             </NavLink>
                             <div>
