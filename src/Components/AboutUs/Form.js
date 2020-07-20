@@ -5,6 +5,7 @@ import style from './about.module.css'
 export default function MyForm() {
   return (
     <Form>
+        <h4>CONTACT US</h4>
         <Form.Group controlId="exampleForm.ControlInput1">
             <Form.Label>Name</Form.Label>
             <Form.Control type="name" placeholder="Name" />
@@ -24,7 +25,7 @@ export default function MyForm() {
             <Form.Label>Message</Form.Label>
             <Form.Control as="textarea" rows="3" />
         </Form.Group>
-        <Button variant="outline-secondary">Send message</Button>
+        <Button variant="success">Send message</Button>
     </Form>
   );
 }
