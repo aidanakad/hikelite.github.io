@@ -37,3 +37,22 @@
 .btn{
     font-size: 19px;
 }
+
+.brand{
+    width: 109px;
+    height: 50px;
+    padding: 2px;
+    background: rgba(4, 255, 4, 0.384);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.brand span{
+    color:rgba(68, 23, 23, 0.815);
+    font-size: 17px;
+}
+.brand .txt{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}

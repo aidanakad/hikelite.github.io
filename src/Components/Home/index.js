@@ -13,6 +13,7 @@ export default function Home (){
                     <Row>
                         <Col>
                             <div className={style.info}>
+                                <h1 style={{marginBottom:'18px'}}>HIKE WITH US LITE</h1>
                                 <h1 style={{marginBottom:'18px'}}>Start to explore marvelous Kyrgyzstan</h1>
                                 <h4 style={{marginBottom:'18px'}}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam!</h4>
                                 <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam nobis voluptate eaque facilis consectetur aspernatur.</h3>
