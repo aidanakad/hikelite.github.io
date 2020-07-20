@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import {NavLink} from 'react-router-dom'
 import placeholder from '../../img/placeholder.jpg'
+import Filter from './Filter'
 
 export default function Guides (){
     const endpoint = 'http://localhost:1717'
@@ -27,7 +28,7 @@ export default function Guides (){
                 <Container className={style.container}>
                     <Row>
                         <Col xs={12} md={12}><h2>Choose a guide and start your adventure</h2></Col>
-                        {/* <Col xs={6} md={4} l={3}> */}
+                        <Col xs={12} md={12}><Filter/></Col>
                             {list.map(guide =>(
                                 <div key={guide.id} className={style.wrapper}>
                                     <div className={style.link}>
@@ -44,7 +45,6 @@ export default function Guides (){
                                     </div>
                                 </div>
                             ))}
-                        {/* </Col> */}
                     </Row>
                 </Container>
             </PageWrapper>
