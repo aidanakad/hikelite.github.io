@@ -40,9 +40,13 @@ export default function Guides (){
                                             </NavLink>
                                         </div>
                                         <div className={style.intro}>
-                                            <span>{guide.name}</span>
+                                            <h6>{guide.name}</h6>
                                             <span>price: {guide.price}</span>
-                                            
+                                            <div >
+                                                {guide.languages.map(l=>(
+                                                    <span key={l.index}> {l} </span> 
+                                                ))} 
+                                            </div>
                                         </div>
                                     </div>
                                 ))}

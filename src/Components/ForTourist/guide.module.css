@@ -38,16 +38,23 @@
 .info{
     display: flex;
     flex-direction: column;
+    line-height: 2;
+    font-size: 18;
 }
 
 .info span{
     font-weight: 600;
 }
 
+.info p {
+    display: inline;
+}
+
 .contact{
     display: flex;
     flex-direction: column;
 }
+
 
 @media only screen and (max-width: 1000px) {
     .guide{

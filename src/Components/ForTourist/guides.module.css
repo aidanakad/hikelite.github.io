@@ -18,6 +18,8 @@ h2{
     border: none;
     text-decoration: none;
     padding: 0;
+    margin-bottom: 5px;
+
 }
 .avatar:hover{
     width: 175px;
@@ -28,6 +30,9 @@ h2{
 .intro{
     display: flex;
     flex-direction: column;
+}
+.intro h6{
+    margin: 0;
 }
 
 .wrapper {

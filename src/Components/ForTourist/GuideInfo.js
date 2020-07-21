@@ -35,12 +35,18 @@ export default function GuideInfo ({match:{params:{id}}}){
                             </div>
                             <div className={style.info}>
                                 
-                                <p> <span>Age:</span>  {guide && guide.age}</p>
-                                {/* <p>Languages: {guide && guide.languages}</p> */}
-                                <p><span>Transport:</span> {guide && guide.transport}</p>
-                                <p><span>Number:</span> {guide && guide.quantity}</p>
-                                <p><span>About:</span> {guide && guide.about}</p>
-                                <p><span>Availability:</span> {guide && guide.available}</p>
+                                <div> <span>Age:</span> <p>{guide && guide.age}</p> </div>
+                                <div><span>Transport:</span> <p>{guide && guide.transport}</p> </div>
+                                     
+                                <div>
+                                <span>Languages:</span>
+                                    {guide&&guide.languages.map(l=>(
+                                          <p> {l} </p>  
+                                        ))}
+                                </div>
+                                <div><span>Number:</span> <p>{guide && guide.quantity}</p> </div>
+                                <div><span>About:</span>  <p>{guide && guide.about}</p> </div>
+                                <div><span>Availability:</span> <p>{guide && guide.available}</p> </div>
                                 <div className={style.contact}>
                                     <span><Whats style={{marginRight:"10px"}}/>{guide && guide.contacts.whatsapp}</span>
                                     <span><Telegram style={{marginRight:"10px"}}/>  {guide && guide.contacts.telegram}</span>
