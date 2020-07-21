@@ -3,6 +3,10 @@ h2{
     justify-content: center;
     margin: 20px;
 }
+
+.page{
+    height: 100vh;
+}
 .avatar{
     width: 150px;
     height: 150px;

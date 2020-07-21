@@ -19,7 +19,7 @@ export default function Filter(){
                     <option value="Russian">Russian</option>
                     <option value="French">French</option>
                     <option value="Italian">Italian</option>
-                    <option value="Chinees">Chinees</option>
+                    <option value="Chinese">Chinese</option>
                     <option value="Turkish">Turkish</option>
                     <option value="Arabi">Arabi</option>
                 </select>

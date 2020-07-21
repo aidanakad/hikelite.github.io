@@ -28,7 +28,7 @@ export default function AboutUs (){
                                         <h6>Why? This is the essential question which every entrepreneur should ask himself first of all. And our answer is that we would like to simplify your trip and show best trails in Kyrgyzstan.</h6>
                                         
                                     </div>
-                                    <h3>HIKE WITH US LITE</h3>
+                                    <h3>WHEN HIKING IS A LIFESTYLE</h3>
                                 </div>
                             </Col>
                             <Col  xs={12} md={6}><Form/></Col>
