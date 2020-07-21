@@ -10,7 +10,7 @@ import Filter from './Filter'
 export default function Guides (){
     const endpoint = 'http://localhost:1717'
     const [list, setList]= useState([])
-
+    const [filter, setFilter]= useState('')
     useEffect(()=>{
         fetch(`${endpoint}/guides`)
         .then(response=>{
@@ -22,6 +22,10 @@ export default function Guides (){
         })
     },[])
 
+    const handleFilterChange = (option) => {
+        setFilter(option)
+    }
+
     return (
         <div>
             <PageWrapper>
@@ -29,8 +33,12 @@ export default function Guides (){
                     <Container className={style.container}>
                         <Row>
                             <Col xs={12} md={12}><h2>Choose a guide and start your adventure</h2></Col>
-                            <Col xs={12} md={12}><Filter/></Col>
-                                {list.map(guide =>(
+                            <Col xs={12} md={12}><Filter onChange={handleFilterChange} /></Col>
+                            
+                                {list.filter((g) => {
+                                    if  (!filter) return list
+                                        return g.languages.includes(filter.toLowerCase())
+                                    }).map(guide =>(
                                     <div key={guide.id} className={style.wrapper}>
                                         <div className={style.link}>
                                             <NavLink to={`/guides/${guide.id}`}>
