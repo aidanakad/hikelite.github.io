@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/academy-project/static/css/main.43dcd41f.chunk.css",
-    "main.js": "/academy-project/static/js/main.e4c90cec.chunk.js",
-    "main.js.map": "/academy-project/static/js/main.e4c90cec.chunk.js.map",
-    "runtime-main.js": "/academy-project/static/js/runtime-main.7350dfdc.js",
-    "runtime-main.js.map": "/academy-project/static/js/runtime-main.7350dfdc.js.map",
-    "static/css/2.af3c1da9.chunk.css": "/academy-project/static/css/2.af3c1da9.chunk.css",
-    "static/js/2.376973ac.chunk.js": "/academy-project/static/js/2.376973ac.chunk.js",
-    "static/js/2.376973ac.chunk.js.map": "/academy-project/static/js/2.376973ac.chunk.js.map",
-    "index.html": "/academy-project/index.html",
-    "precache-manifest.2bba742ab82660ef0da628fcf753cc4d.js": "/academy-project/precache-manifest.2bba742ab82660ef0da628fcf753cc4d.js",
-    "service-worker.js": "/academy-project/service-worker.js",
-    "static/css/2.af3c1da9.chunk.css.map": "/academy-project/static/css/2.af3c1da9.chunk.css.map",
-    "static/css/main.43dcd41f.chunk.css.map": "/academy-project/static/css/main.43dcd41f.chunk.css.map",
-    "static/js/2.376973ac.chunk.js.LICENSE.txt": "/academy-project/static/js/2.376973ac.chunk.js.LICENSE.txt",
-    "static/media/about.module.css": "/academy-project/static/media/mountains.2f49e232.png",
-    "static/media/home.module.css": "/academy-project/static/media/woman.6b3b9c4a.jpg"
+    "main.css": "/static/css/main.c9eaa51a.chunk.css",
+    "main.js": "/static/js/main.49781b88.chunk.js",
+    "main.js.map": "/static/js/main.49781b88.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.e2a419ab.js",
+    "runtime-main.js.map": "/static/js/runtime-main.e2a419ab.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.376973ac.chunk.js": "/static/js/2.376973ac.chunk.js",
+    "static/js/2.376973ac.chunk.js.map": "/static/js/2.376973ac.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.5423da895528fb4b7cc443a850646602.js": "/precache-manifest.5423da895528fb4b7cc443a850646602.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.c9eaa51a.chunk.css.map": "/static/css/main.c9eaa51a.chunk.css.map",
+    "static/js/2.376973ac.chunk.js.LICENSE.txt": "/static/js/2.376973ac.chunk.js.LICENSE.txt",
+    "static/media/about.module.css": "/static/media/mountains.2f49e232.png",
+    "static/media/home.module.css": "/static/media/woman.6b3b9c4a.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7350dfdc.js",
+    "static/js/runtime-main.e2a419ab.js",
     "static/css/2.af3c1da9.chunk.css",
     "static/js/2.376973ac.chunk.js",
-    "static/css/main.43dcd41f.chunk.css",
-    "static/js/main.e4c90cec.chunk.js"
+    "static/css/main.c9eaa51a.chunk.css",
+    "static/js/main.49781b88.chunk.js"
   ]
 }
