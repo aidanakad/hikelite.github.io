@@ -31,7 +31,7 @@ export default function AboutUs (){
                                     <h3>WHEN HIKING IS A LIFESTYLE</h3>
                                 </div>
                             </Col>
-                            <Col  xs={12} md={6}><Form/></Col>
+                            <Col  xs={12} md={6}><Form /></Col>
                             <Col xs={12} md={12}>
                                 <div className={style.follow}>
                                     <h4>FOLLOW US</h4>
