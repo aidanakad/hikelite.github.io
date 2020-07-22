@@ -3,7 +3,7 @@ import {Form, Button} from 'react-bootstrap'
 import style from './about.module.css'
 
 export default function MyForm() {
-const endpoint = 'http://localhost:1717'
+const API = 'https://blooming-cove-23901.herokuapp.com'
 const [state, setState] = useState({
         name: '',
         email: '',
@@ -15,7 +15,7 @@ const [result, setResult] = useState(null);
 
 const sendEmail = event => {
     event.preventDefault();
-    fetch(`${endpoint}/about-us`,{
+    fetch(`${API}/about-us`,{
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

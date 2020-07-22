@@ -9,9 +9,9 @@ import Insta from '../AboutUs/icons/Insta'
 
 export default function GuideInfo ({match:{params:{id}}}){
     const [guide, setGuide] = useState(null)
-    const endpoint = 'https://blooming-cove-23901.herokuapp.com/'
+    const API = 'https://blooming-cove-23901.herokuapp.com'
     useEffect(()=>{
-        fetch(`${endpoint}/guides/${id}`)
+        fetch(`${API}/guides/${id}`)
         .then(response=>{
             if(!response.ok) throw new Error ('guide not found')
             return response.json()
