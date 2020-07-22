@@ -8,11 +8,11 @@ import placeholder from '../../img/placeholder.jpg'
 import Filter from './Filter'
 
 export default function Guides (){
-    const endpoint = 'http://localhost:1717'
+    const API = 'https://blooming-cove-23901.herokuapp.com/guides'
     const [list, setList]= useState([])
     const [filter, setFilter]= useState('')
     useEffect(()=>{
-        fetch(`${endpoint}/guides`)
+        fetch('API')
         .then(response=>{
             if(!response.ok) throw new Error ('error receiving data')
             return response.json()

@@ -9,7 +9,7 @@ import Insta from '../AboutUs/icons/Insta'
 
 export default function GuideInfo ({match:{params:{id}}}){
     const [guide, setGuide] = useState(null)
-    const endpoint = 'http://localhost:1717'
+    const endpoint = 'https://blooming-cove-23901.herokuapp.com/'
     useEffect(()=>{
         fetch(`${endpoint}/guides/${id}`)
         .then(response=>{

@@ -10,7 +10,7 @@ import NotFound from './Components/Navigation/NotFound'
 function App() {
   return (
     <div>
-      <BrowserRouter basename={window.location.pathname||''>
+      <BrowserRouter basename={window.location.pathname||''}>
         <Switch>
           <Route path="/" component={Home} exact/>
           <Route path="/guides" component={ForTourist} exact/>
