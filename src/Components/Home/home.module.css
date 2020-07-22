@@ -1,0 +1,55 @@
+.bg{
+  width: 100%;
+  height: 100vh;
+  background: center no-repeat;
+  background-size: cover;
+  backface-visibility: hidden;
+  animation: slideBg 8s linear infinite 0s;
+  animation-timing-function: ease-in-out;
+  animation-duration: 30s;
+  background-image: url('../../img/man.jpg');
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+@keyframes slideBg {
+  0%{
+      background-image: url('../../img/man.jpg');
+      
+  }
+  25%{
+      background-image: url('../../img/woman.jpg');
+      
+  }
+  50%{
+      background-image: url('../../img/field.jpg');
+      
+  }
+  100%{
+    background-image: url('../../img/man.jpg');
+
+    
+}
+}
+
+.info{
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+}
+
+.info button{
+  width: 130px;
+}
+
+@media screen and (max-width: 992px) {
+  .info {
+    width: 100%;
+  }
+  .bg{
+    align-items: flex-start;
+    color: black;
+  }
+}

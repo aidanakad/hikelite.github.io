@@ -1,0 +1,82 @@
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.page{
+    height: 100vh;
+}
+.avatar{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.link button{
+    border: none;
+    text-decoration: none;
+    padding: 0;
+    margin-bottom: 5px;
+
+}
+.avatar:hover{
+    width: 175px;
+    height: 175px;
+    transition: all .3s ease-in-out;
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+.intro h6{
+    margin: 0;
+}
+
+.wrapper {
+	display: block;
+	width: 100%;
+	float: left;
+    transition: width .2s;
+    text-align: center;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: 450px) {
+	.wrapper {
+		width: 50%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+	.wrapper {
+        width: 33.333%;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.wrapper {
+		width: 25%;
+    }
+}
+
+.sort{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 10px;
+    border-bottom: 1px solid grey;
+}
+@media only screen and (max-width: 450px) {
+    .order{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .filter{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}

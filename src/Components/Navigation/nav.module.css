@@ -1,8 +1,9 @@
 @import '../../vars.css';
 
 .nav{
-    min-height: 90px;
+    min-height: 70px;
     font-size: 19px;
+    background-color: rgba(195, 243, 255, 0.164);
 }
 
 .nav a{
@@ -35,4 +36,23 @@
 
 .btn{
     font-size: 19px;
+}
+
+.brand{
+    width: 97px;
+    height: 50px;
+    padding: 2px;
+    background: rgba(4, 255, 4, 0.384);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.brand span{
+    color:rgba(68, 23, 23, 0.815);
+    font-size: 17px;
+}
+.brand .txt{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
