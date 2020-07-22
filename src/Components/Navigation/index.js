@@ -14,7 +14,7 @@ export default function Navigation(){
         <Navbar collapseOnSelect expand= 'lg' variante="dark"  mr='auto' className={style.nav}>
         <Container fluid="md">
               <div className={style.brand}>
-                <Navbar.Brand href="/" ><span className={style.txt}>HIKE</span><span>^</span><span className={style.txt}>LITE</span> </Navbar.Brand>
+                <Navbar.Brand href='/' ><span className={style.txt}>HIKE</span><span>^</span><span className={style.txt}>LITE</span> </Navbar.Brand>
               </div>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
               <Navbar.Collapse id="responsive-navbar-nav">
